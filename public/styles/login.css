@@ -1,0 +1,70 @@
+.f{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    margin-top: 30px;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 500px;
+    padding: 20px 20px;
+    border-radius: 20px;
+    box-shadow: 0 20px 30px;
+    background: url("https://img.freepik.com/free-photo/man-love-kissing-forehead-his-happy-girlfriend_1153-874.jpg?t=st=1717786876~exp=1717790476~hmac=824b4df6d5b1f68e80e06d5287c77c474438bbc268cdd192262d5732c6f6e7fa&w=1060");
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+  label{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+  }
+  input,select{
+    outline: none;
+    color: aqua;
+    background: transparent;
+    padding: 5px;
+   
+    border: solid 2px gray;
+    width: 60%;
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  
+  button{
+    background-color: rgb(5, 19, 99);
+    padding: 5px 10px;
+    font-size: 30px;
+    font-weight: 600;
+    width: 400px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+  transition: .3s ease-in;
+
+  }
+  button:hover{
+    background-color: rgb(49, 114, 199);
+    cursor: pointer;
+  }
+  
+  button:active{
+    color: aliceblue;
+    background-color: blueviolet;
+    cursor: pointer;
+    transition: .3s ease-out;
+  }
+
+  form a{
+    font-size: 20px;
+    margin-left: 50px;
+    color: rgb(18, 10, 63);
+    font-weight: 600;
+
+  }

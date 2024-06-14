@@ -1,0 +1,103 @@
+.apply{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+
+tr th{
+    background-color: rgb(16, 119, 93);
+    text-align: center;
+    padding: 4px;
+    border: 5px solid rgb(240, 239, 218);
+    gap: 2px;
+    font-size: 30px;
+}
+
+tr td{
+   
+    text-align: center;
+   
+    border: 5px solid rgb(240, 239, 218);
+  
+    font-size: 15px;
+   font-weight: 600;
+    font-family: cursive;
+}
+
+i{
+    font-size: 30px;
+}
+#trash{
+    font-size: 30px;
+    background-color: white;
+    color: rgb(226, 43, 43);
+}
+
+tr :nth-child(even){
+
+    background-color: rgb(89, 159, 187);
+}
+tr :nth-child(odd){
+
+    background-color: rgb(54, 100, 160);
+}
+
+.f{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+  top: 30%;
+   margin-left: 35%;
+    margin-top: 30px;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 800px;
+    padding: 20px 20px;
+    border-radius: 20px;
+    box-shadow: 0 20px 30px;
+    background: linear-gradient(180deg, rgba(216, 186, 17, 0.5), rgba(206, 79, 29, 0.384)); 
+display: none;
+}
+ 
+
+.h{
+    display: flex;
+   gap: 300px;
+}
+.cancel{
+
+    background: red;
+    position: absolute;
+    top: 0%;
+ right: 0%;
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    padding: 5px 20px;
+}
+.cancel:hover{
+    background-color: rgb(238, 62, 62);
+}
+span i{
+    color: gray;
+}
+h4{
+    text-transform: uppercase;
+}
+.bo{
+    display: flex;
+    justify-content: center;
+}
+i{
+    color: black;
+}
+ ul li a,div li a{
+    color: rgb(26, 24, 150);
+ text-decoration: none;
+    list-style: none;
+}

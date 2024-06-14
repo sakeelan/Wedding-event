@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SM USERLOGIN PAGE</title>
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+
+<link rel="stylesheet" href="/styles/login.css">
+<%- include('../views/partials/mainnav.ejs') %>
+<%- include('../views/partials/mainheader.ejs') %>
+<body>
+
+  <center><h1>USER LOGIN</h1></center>
+<div class="main">
+    <form class="f" action="/login" method="post" method="post">
+        
+        <input type="text" name="uname"  placeholder="YOUR NAME" required>
+        <input type="text" name="fname" placeholder="FINANCE NAME" required>
+        <input type="text" name="email" placeholder="EMAIL" required>
+       
+        <input type="text" name="phone" placeholder="PHONE NO" required maxlength="10" required>
+       <label for="">EVENT DATE</label>
+        <input type="date" name="date"  placeholder="DATE OF EVENT" required>
+
+
+        <select name="package"  class="package" >
+
+<option class="pack" value="">SELECT YOUR PACKAGE</option>
+<option class="pack" value="PACKAGE 1">PACKAGE 1</option>
+<option class="pack" value="PACKAGE 2">PACKAGE 2</option>
+<option class="pack" value="PACKAGE 3">PACKAGE 3</option>
+<option class="pack" value="PACKAGE 4">PACKAGE 4</option>
+<option class="pack" value="PACKAGE 5">PACKAGE 5</option>
+
+<input type="text" name="price" placeholder="$$$"  class="total">
+        </select>
+        <input type="text" name="des" placeholder="OTHER DETAILS" style="height: 150px;">
+        <div>
+        
+        <button>SUMBIT</button></div>
+    </form></div>
+</body>
+
+<br><br>
+
+<%- include('../views/partials/footer.ejs') %>
+
+
+</html>
+<script src="/js/login.js">
+
+
+
+
+
+</script>

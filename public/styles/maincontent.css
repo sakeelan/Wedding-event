@@ -1,0 +1,83 @@
+li a:hover{
+    border: solid 2px black;
+    padding: 5px ;
+   
+}
+
+li a:focus{
+    border: solid 2px black;
+}
+#headernav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.images{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.images img{
+    width: 500px;
+    gap: 20px;
+    box-shadow: 0 5px 7px;
+}
+
+.images img:hover{
+    width: 505px;
+   cursor: pointer;
+   box-shadow: 0 5px 7px rgb(181, 250, 218);
+}
+
+#headernav li a:hover{
+    border: none;
+   font-size: 30px;
+   border-bottom: black solid 4px;
+       
+    }
+
+
+#nav{
+
+    position: sticky;
+    top: 130px;
+    color: bisque;
+    z-index: 2;
+}
+
+
+.top{
+    position: sticky;
+    top: 800px;
+    font-size: 60px;
+    color: rgb(14, 10, 56);
+    float: right;
+    z-index: 3;
+    padding: 3px;
+ 
+    
+    animation: mymove .8s infinite;
+}
+
+@keyframes mymove {
+  50% {color: rgb(223, 38, 14);}
+}
+
+  @media screen and (max-width: 472px) {
+    #headernav{
+        display: flex;
+      
+        flex-wrap: wrap;
+        flex-direction: column;
+        
+      }
+      #nav{
+
+        position: static;
+        top: 130px;
+        color: bisque;
+        z-index: 2;
+    }
+
+  }

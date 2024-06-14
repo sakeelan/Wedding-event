@@ -1,0 +1,68 @@
+.f{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    margin-top: 30px;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 500px;
+    padding: 20px 20px;
+    border-radius: 20px;
+    box-shadow: 0 20px 30px;
+    background: url("https://img.freepik.com/free-photo/entertaining-female-dj-with-hand-raised_23-2148325425.jpg?t=st=1717860995~exp=1717864595~hmac=41f814167b8c2d3eb94feeb74850ac9aa0436b25455ca33537ebe1637638e0da&w=740");
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+  label{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+  }
+  input{
+    outline: none;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 4px 4px 2px;
+    border: none;
+    width: 60%;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  
+  button{
+    background-color: rgb(0, 128, 117);
+    padding: 5px 10px;
+    font-size: 30px;
+    font-weight: 600;
+    width: 400px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+  transition: .3s ease-in;
+
+  }
+  button:hover{
+    background-color: rgb(115, 230, 214);
+    cursor: pointer;
+  }
+  
+  button:active{
+    color: aliceblue;
+    background-color: blueviolet;
+    cursor: pointer;
+    transition: .3s ease-out;
+  }
+
+  form a{
+    font-size: 20px;
+    margin-left: 50px;
+    color: rgb(18, 10, 63);
+    font-weight: 600;
+
+  }

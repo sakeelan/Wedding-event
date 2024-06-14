@@ -1,0 +1,71 @@
+.f{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    margin-top: 30px;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 500px;
+    padding: 20px 20px;
+    border-radius: 20px;
+    box-shadow: 0 20px 30px;
+   background: url("https://img.freepik.com/free-photo/friends-club-2018-celebrations_23-2147717244.jpg?t=st=1717873211~exp=1717876811~hmac=17627b7e05598cf41d278c77d7c7eb56af05cc13cf79da1c1448799d1e48db92&w=740");
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+
+  label{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(18, 95, 168);
+  }
+  input{
+    outline: none;
+  
+    padding: 5px;
+    box-shadow: 0px 4px 2px black;
+    border: solid black 3px;
+    background: transparent;
+    width: 60%;
+    color: beige;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  
+  button{
+    background-color: rgb(236, 56, 56);
+    padding: 5px 10px;
+    font-size: 30px;
+    font-weight: 600;
+    width: 400px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+  transition: .3s ease-in;
+
+  }
+  button:hover{
+    background-color: rgb(230, 113, 92);
+    cursor: pointer;
+  }
+  
+  button:active{
+    color: aliceblue;
+    background-color: blueviolet;
+    cursor: pointer;
+    transition: .3s ease-out;
+  }
+
+  form a{
+    font-size: 20px;
+    margin-left: 50px;
+    color: rgb(18, 10, 63);
+    font-weight: 600;
+
+  }

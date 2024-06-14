@@ -1,0 +1,35 @@
+.img{
+    display: flex;
+justify-content: center;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.img img{
+    width: 700px;
+    height: 400px;
+}
+.con{
+   
+    
+    width: 1000px;
+    height: auto;
+ background-color: rgba(0, 255, 255, 0.116);
+
+gap: 10px;opacity: .8;
+padding: 20px;
+margin-bottom: 40px;
+
+}
+span{
+    animation: mymove .8s infinite;
+    font-weight: 900;
+}
+
+@keyframes mymove {
+  50% {color: rgb(13, 114, 72);}
+}
+
